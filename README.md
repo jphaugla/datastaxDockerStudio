@@ -26,9 +26,8 @@ docker exec -it dse cqlsh
 * http://localhost:9091
 * Open the "Working with CQL worksheet"
 
-8. 
 ## Conclusion
-At this point, DSE and LDAP are connected such that user management is much easier than it has been before. We can use internal Cassandra auth for the app-tier or for dev/test users that really have no business in an LDAP. LDAP can be used for real human user's accounts using any groups that an individual belongs to, or that have been created for use with DSE. The only additional overhead that the DSE admin has is to create a role name matching an LDAP group assignment and to assign appropriate permissions to that role. This results in a far more manageable permissions catalog inside of DSE as compared to releases prior to 5.0.
+At this point, run throught the cql worksheet and enjoy playing with Cassandra!
 
 ##  Additional Notes/tips
 
