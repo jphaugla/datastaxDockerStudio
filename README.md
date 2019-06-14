@@ -4,9 +4,21 @@
 
 This github covers setting up a DataStax Docker container and datastax studio.  Two main docker containers are used:  DataStax Studio and DataStax Server.  
 
+## Prerequisites
+
+* Basic understanding of Docker images and containers. 
+
+* Docker installed on your local system, see [Docker Installation Instructions](https://docs.docker.com/engine/installation/). 
+
+* When using Docker for Mac or Docker for Windows, the default resources allocated to the linux VM running docker are 2GB RAM and 2 CPU's. Make sure to adjust these resources to meet the resource requirements for the containers you will be running. More information can be found here on adjusting the resources allocated to docker.
+
+[Docker for mac](https://docs.docker.com/docker-for-mac/#advanced)
+
+[Docker for windows](https://docs.docker.com/docker-for-windows/#advanced)
+
 
 ## Getting Started
-1. Prepare Docker environment
+1. Prepare Docker environment-see the Prerequisites section above...
 2. Pull this github into a directory  
 ```bash
 git clone https://github.com/jphaugla/datastaxDockerStudio.git
