@@ -24,7 +24,10 @@ This github covers setting up a DataStax Docker container and datastax studio.  
 git clone https://github.com/jphaugla/datastaxDockerStudio.git
 ```
 3. Refer to the notes from DataStax Docker github for background on the needed DataStax images.  Directions are here:  [https://github.com/datastax/docker-images/#datastax-platform-overview](https://github.com/datastax/docker-images/#datastax-platform-overview).  Don't get too bogged down here as the included docker-compose.yaml handles most everything.
-4. Open terminal and change to the github home where you will see the docker-compose.yml file, then: `docker-compose up -d`
+4. Open terminal and change to the github home where you will see the docker-compose.yml file, then: 
+```bash
+docker-compose up -d
+```
 5. Verify DataStax is working (may take a minute for datastax cassandra to startup so be patient)
 ```bash
 docker exec dse cqlsh -e "desc keyspaces"
